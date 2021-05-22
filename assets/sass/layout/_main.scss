@@ -1,0 +1,27 @@
+.main {
+  padding: 1.3rem 2rem;
+
+  & h2 {
+    font-size: $x-large;
+    font-weight: $semi-bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main {
+    padding: 1.3rem 5rem;
+
+    & h2 {
+      font-size: $xx-large;
+      text-align: left;
+    }
+  }
+
+  .main__content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1.5rem;
+  }
+}

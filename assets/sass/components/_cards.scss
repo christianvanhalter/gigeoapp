@@ -1,0 +1,12 @@
+.card-publicacion {
+  border: 0;
+  padding-bottom: 1rem;
+
+  &__container {
+    padding: 0.5rem 0;
+    h3 {
+      font-size: $x-large;
+      margin-bottom: 0.2rem;
+    }
+  }
+}

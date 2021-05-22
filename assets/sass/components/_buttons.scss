@@ -1,0 +1,11 @@
+.btn {
+  border-radius: 0;
+
+  &-info {
+    background: $sky;
+  }
+
+  &-danger {
+    background: $salmon;
+  }
+}
